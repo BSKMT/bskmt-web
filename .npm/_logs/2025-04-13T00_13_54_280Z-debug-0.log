@@ -1,0 +1,693 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.3.0
+2 info using node@v22.14.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/bskmt-web/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install tailwindcss @tailwindcss/vite
+8 verbose argv "install" "tailwindcss" "@tailwindcss/vite"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-04-13T00_13_54_280Z-
+10 verbose logfile /root/.npm/_logs/2025-04-13T00_13_54_280Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+13 silly idealTree buildDeps
+14 silly fetch manifest tailwindcss@*
+15 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/tailwindcss 430ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+19 silly fetch manifest @tailwindcss/vite@*
+20 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fvite cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fvite 75ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fvite set size:undefined disposed:false
+23 silly fetch manifest vite@^6.2.0
+24 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+25 http cache https://registry.npmjs.org/vite 149ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/vite set size:38350324 disposed:false
+27 silly fetch manifest @types/node@^18.0.0 || ^20.0.0 || >=22.0.0
+28 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+29 http cache https://registry.npmjs.org/@types%2fnode 55ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:9814087 disposed:false
+31 silly fetch manifest jiti@>=1.21.0
+32 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+33 http cache https://registry.npmjs.org/jiti 8ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/jiti set size:363881 disposed:false
+35 silly fetch manifest less@*
+36 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+37 http cache https://registry.npmjs.org/less 9ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/less set size:413596 disposed:false
+39 silly fetch manifest lightningcss@^1.21.0
+40 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+41 http cache https://registry.npmjs.org/lightningcss 6ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:160952 disposed:false
+43 silly fetch manifest sass@*
+44 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+45 http cache https://registry.npmjs.org/sass 7ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/sass set size:674391 disposed:false
+47 silly fetch manifest sass-embedded@*
+48 silly packumentCache full:https://registry.npmjs.org/sass-embedded cache-miss
+49 http cache https://registry.npmjs.org/sass-embedded 7ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/sass-embedded set size:334168 disposed:false
+51 silly fetch manifest stylus@*
+52 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+53 http cache https://registry.npmjs.org/stylus 5ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/stylus set size:286766 disposed:false
+55 silly fetch manifest sugarss@*
+56 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+57 http cache https://registry.npmjs.org/sugarss 7ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/sugarss set size:43245 disposed:false
+59 silly fetch manifest postcss@^8.3.3
+60 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+61 http cache https://registry.npmjs.org/postcss 14ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/postcss set size:687256 disposed:false
+63 silly fetch manifest terser@^5.16.0
+64 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+65 http cache https://registry.npmjs.org/terser 43ms (cache hit)
+66 silly packumentCache full:https://registry.npmjs.org/terser set size:750681 disposed:false
+67 silly fetch manifest tsx@^4.8.1
+68 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+69 http cache https://registry.npmjs.org/tsx 4ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/tsx set size:269124 disposed:false
+71 silly fetch manifest yaml@^2.4.2
+72 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+73 http cache https://registry.npmjs.org/yaml 6ms (cache hit)
+74 silly packumentCache full:https://registry.npmjs.org/yaml set size:354247 disposed:false
+75 silly placeDep ROOT @tailwindcss/vite@4.1.3 OK for: bskmt-web@0.0.0 want: *
+76 silly placeDep ROOT tailwindcss@4.1.3 OK for: bskmt-web@0.0.0 want: *
+77 silly fetch manifest tailwindcss@4.1.3
+78 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+79 http cache https://registry.npmjs.org/tailwindcss 30ms (cache hit)
+80 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:8733818 disposed:false
+81 silly fetch manifest @tailwindcss/node@4.1.3
+82 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fnode 97ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode set size:undefined disposed:false
+85 silly fetch manifest @tailwindcss/oxide@4.1.3
+86 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide 78ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide set size:undefined disposed:false
+89 silly placeDep ROOT @tailwindcss/node@4.1.3 OK for: @tailwindcss/vite@4.1.3 want: 4.1.3
+90 silly placeDep ROOT @tailwindcss/oxide@4.1.3 OK for: @tailwindcss/vite@4.1.3 want: 4.1.3
+91 silly fetch manifest jiti@^2.4.2
+92 silly packumentCache full:https://registry.npmjs.org/jiti cache-hit
+93 silly fetch manifest lightningcss@1.29.2
+94 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-hit
+95 silly fetch manifest enhanced-resolve@^5.18.1
+96 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve 54ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve set size:undefined disposed:false
+99 silly fetch manifest @tailwindcss/oxide-darwin-x64@4.1.3
+100 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 70ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 set size:undefined disposed:false
+103 silly fetch manifest @tailwindcss/oxide-freebsd-x64@4.1.3
+104 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 131ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 set size:undefined disposed:false
+107 silly fetch manifest @tailwindcss/oxide-darwin-arm64@4.1.3
+108 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 207ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 set size:undefined disposed:false
+111 silly fetch manifest @tailwindcss/oxide-android-arm64@4.1.3
+112 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 62ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 set size:undefined disposed:false
+115 silly fetch manifest @tailwindcss/oxide-linux-x64-gnu@4.1.3
+116 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu 107ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu set size:undefined disposed:false
+119 silly fetch manifest @tailwindcss/oxide-linux-x64-musl@4.1.3
+120 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl 170ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl set size:undefined disposed:false
+123 silly fetch manifest @tailwindcss/oxide-win32-x64-msvc@4.1.3
+124 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc 141ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc set size:undefined disposed:false
+127 silly fetch manifest @tailwindcss/oxide-linux-arm64-gnu@4.1.3
+128 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu 103ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu set size:undefined disposed:false
+131 silly fetch manifest @tailwindcss/oxide-linux-arm64-musl@4.1.3
+132 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl 72ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl set size:undefined disposed:false
+135 silly fetch manifest @tailwindcss/oxide-win32-arm64-msvc@4.1.3
+136 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc 63ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc set size:undefined disposed:false
+139 silly fetch manifest @tailwindcss/oxide-linux-arm-gnueabihf@4.1.3
+140 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf 86ms (cache miss)
+142 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf set size:undefined disposed:false
+143 silly placeDep ROOT enhanced-resolve@5.18.1 OK for: @tailwindcss/node@4.1.3 want: ^5.18.1
+144 silly placeDep ROOT jiti@2.4.2 OK for: @tailwindcss/node@4.1.3 want: ^2.4.2
+145 silly placeDep ROOT lightningcss@1.29.2 OK for: @tailwindcss/node@4.1.3 want: 1.29.2
+146 silly fetch manifest graceful-fs@^4.2.4
+147 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/graceful-fs 28ms (cache miss)
+149 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+150 silly fetch manifest tapable@^2.2.0
+151 silly packumentCache full:https://registry.npmjs.org/tapable cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/tapable 26ms (cache miss)
+153 silly packumentCache full:https://registry.npmjs.org/tapable set size:undefined disposed:false
+154 silly fetch manifest detect-libc@^2.0.3
+155 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/detect-libc 70ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:undefined disposed:false
+158 silly fetch manifest lightningcss-darwin-x64@1.29.2
+159 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-x64 27ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:undefined disposed:false
+162 silly fetch manifest lightningcss-freebsd-x64@1.29.2
+163 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+164 http fetch GET 200 https://registry.npmjs.org/lightningcss-freebsd-x64 29ms (cache miss)
+165 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:undefined disposed:false
+166 silly fetch manifest lightningcss-darwin-arm64@1.29.2
+167 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64 31ms (cache miss)
+169 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:undefined disposed:false
+170 silly fetch manifest lightningcss-linux-x64-gnu@1.29.2
+171 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu cache-miss
+172 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu 27ms (cache miss)
+173 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu set size:undefined disposed:false
+174 silly fetch manifest lightningcss-linux-x64-musl@1.29.2
+175 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+176 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl 31ms (cache miss)
+177 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:undefined disposed:false
+178 silly fetch manifest lightningcss-win32-x64-msvc@1.29.2
+179 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc cache-miss
+180 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc 25ms (cache miss)
+181 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc set size:undefined disposed:false
+182 silly fetch manifest lightningcss-linux-arm64-gnu@1.29.2
+183 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+184 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu 26ms (cache miss)
+185 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:undefined disposed:false
+186 silly fetch manifest lightningcss-linux-arm64-musl@1.29.2
+187 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+188 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl 25ms (cache miss)
+189 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:undefined disposed:false
+190 silly fetch manifest lightningcss-win32-arm64-msvc@1.29.2
+191 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+192 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-arm64-msvc 30ms (cache miss)
+193 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:undefined disposed:false
+194 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.29.2
+195 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+196 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 26ms (cache miss)
+197 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:undefined disposed:false
+198 silly placeDep ROOT @tailwindcss/oxide-android-arm64@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+199 silly placeDep ROOT @tailwindcss/oxide-darwin-arm64@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+200 silly placeDep ROOT @tailwindcss/oxide-darwin-x64@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+201 silly placeDep ROOT @tailwindcss/oxide-freebsd-x64@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+202 silly placeDep ROOT @tailwindcss/oxide-linux-arm-gnueabihf@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+203 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-gnu@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+204 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-musl@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+205 silly placeDep ROOT @tailwindcss/oxide-linux-x64-gnu@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+206 silly placeDep ROOT @tailwindcss/oxide-linux-x64-musl@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+207 silly placeDep ROOT @tailwindcss/oxide-win32-arm64-msvc@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+208 silly placeDep ROOT @tailwindcss/oxide-win32-x64-msvc@4.1.3 OK for: @tailwindcss/oxide@4.1.3 want: 4.1.3
+209 silly placeDep ROOT graceful-fs@4.2.11 OK for: enhanced-resolve@5.18.1 want: ^4.2.4
+210 silly placeDep ROOT tapable@2.2.1 OK for: enhanced-resolve@5.18.1 want: ^2.2.0
+211 silly placeDep ROOT detect-libc@2.0.3 OK for: lightningcss@1.29.2 want: ^2.0.3
+212 silly placeDep ROOT lightningcss-darwin-arm64@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+213 silly placeDep ROOT lightningcss-darwin-x64@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+214 silly placeDep ROOT lightningcss-freebsd-x64@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+215 silly placeDep ROOT lightningcss-linux-arm-gnueabihf@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+216 silly placeDep ROOT lightningcss-linux-arm64-gnu@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+217 silly placeDep ROOT lightningcss-linux-arm64-musl@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+218 silly placeDep ROOT lightningcss-linux-x64-gnu@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+219 silly placeDep ROOT lightningcss-linux-x64-musl@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+220 silly placeDep ROOT lightningcss-win32-arm64-msvc@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+221 silly placeDep ROOT lightningcss-win32-x64-msvc@1.29.2 OK for: lightningcss@1.29.2 want: 1.29.2
+222 silly reify moves {}
+223 silly audit bulk request {
+223 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+223 silly audit   '@babel/code-frame': [ '7.26.2' ],
+223 silly audit   '@babel/compat-data': [ '7.26.8' ],
+223 silly audit   '@babel/core': [ '7.26.10' ],
+223 silly audit   '@babel/generator': [ '7.27.0' ],
+223 silly audit   '@babel/helper-compilation-targets': [ '7.27.0' ],
+223 silly audit   '@babel/helper-module-imports': [ '7.25.9' ],
+223 silly audit   '@babel/helper-module-transforms': [ '7.26.0' ],
+223 silly audit   '@babel/helper-plugin-utils': [ '7.26.5' ],
+223 silly audit   '@babel/helper-string-parser': [ '7.25.9' ],
+223 silly audit   '@babel/helper-validator-identifier': [ '7.25.9' ],
+223 silly audit   '@babel/helper-validator-option': [ '7.25.9' ],
+223 silly audit   '@babel/helpers': [ '7.27.0' ],
+223 silly audit   '@babel/parser': [ '7.27.0' ],
+223 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.25.9' ],
+223 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.25.9' ],
+223 silly audit   '@babel/template': [ '7.27.0' ],
+223 silly audit   '@babel/traverse': [ '7.27.0' ],
+223 silly audit   globals: [ '11.12.0', '14.0.0', '15.15.0' ],
+223 silly audit   '@babel/types': [ '7.27.0' ],
+223 silly audit   '@esbuild/aix-ppc64': [ '0.25.2' ],
+223 silly audit   '@esbuild/android-arm': [ '0.25.2' ],
+223 silly audit   '@esbuild/android-arm64': [ '0.25.2' ],
+223 silly audit   '@esbuild/android-x64': [ '0.25.2' ],
+223 silly audit   '@esbuild/darwin-arm64': [ '0.25.2' ],
+223 silly audit   '@esbuild/darwin-x64': [ '0.25.2' ],
+223 silly audit   '@esbuild/freebsd-arm64': [ '0.25.2' ],
+223 silly audit   '@esbuild/freebsd-x64': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-arm': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-arm64': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-ia32': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-loong64': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-mips64el': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-ppc64': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-riscv64': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-s390x': [ '0.25.2' ],
+223 silly audit   '@esbuild/linux-x64': [ '0.25.2' ],
+223 silly audit   '@esbuild/netbsd-arm64': [ '0.25.2' ],
+223 silly audit   '@esbuild/netbsd-x64': [ '0.25.2' ],
+223 silly audit   '@esbuild/openbsd-arm64': [ '0.25.2' ],
+223 silly audit   '@esbuild/openbsd-x64': [ '0.25.2' ],
+223 silly audit   '@esbuild/sunos-x64': [ '0.25.2' ],
+223 silly audit   '@esbuild/win32-arm64': [ '0.25.2' ],
+223 silly audit   '@esbuild/win32-ia32': [ '0.25.2' ],
+223 silly audit   '@esbuild/win32-x64': [ '0.25.2' ],
+223 silly audit   '@eslint-community/eslint-utils': [ '4.6.0' ],
+223 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.0' ],
+223 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+223 silly audit   '@eslint/config-array': [ '0.20.0' ],
+223 silly audit   '@eslint/config-helpers': [ '0.2.1' ],
+223 silly audit   '@eslint/core': [ '0.12.0', '0.13.0' ],
+223 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+223 silly audit   '@eslint/js': [ '9.24.0' ],
+223 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+223 silly audit   '@eslint/plugin-kit': [ '0.2.8' ],
+223 silly audit   '@humanfs/core': [ '0.19.1' ],
+223 silly audit   '@humanfs/node': [ '0.16.6' ],
+223 silly audit   '@humanwhocodes/retry': [ '0.3.1', '0.4.2' ],
+223 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+223 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+223 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+223 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+223 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+223 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+223 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-android-arm64': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-darwin-arm64': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-darwin-x64': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-freebsd-x64': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.40.0' ],
+223 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.40.0' ],
+223 silly audit   '@types/babel__core': [ '7.20.5' ],
+223 silly audit   '@types/babel__generator': [ '7.27.0' ],
+223 silly audit   '@types/babel__template': [ '7.4.4' ],
+223 silly audit   '@types/babel__traverse': [ '7.20.7' ],
+223 silly audit   '@types/estree': [ '1.0.7' ],
+223 silly audit   '@types/json-schema': [ '7.0.15' ],
+223 silly audit   '@types/react': [ '19.1.1' ],
+223 silly audit   '@types/react-dom': [ '19.1.2' ],
+223 silly audit   '@vitejs/plugin-react': [ '4.3.4' ],
+223 silly audit   acorn: [ '8.14.1' ],
+223 silly audit   'acorn-jsx': [ '5.3.2' ],
+223 silly audit   ajv: [ '6.12.6' ],
+223 silly audit   'ansi-styles': [ '4.3.0' ],
+223 silly audit   argparse: [ '2.0.1' ],
+223 silly audit   'balanced-match': [ '1.0.2' ],
+223 silly audit   'brace-expansion': [ '1.1.11' ],
+223 silly audit   browserslist: [ '4.24.4' ],
+223 silly audit   callsites: [ '3.1.0' ],
+223 silly audit   'caniuse-lite': [ '1.0.30001713' ],
+223 silly audit   chalk: [ '4.1.2' ],
+223 silly audit   'color-convert': [ '2.0.1' ],
+223 silly audit   'color-name': [ '1.1.4' ],
+223 silly audit   'concat-map': [ '0.0.1' ],
+223 silly audit   'convert-source-map': [ '2.0.0' ],
+223 silly audit   'cross-spawn': [ '7.0.6' ],
+223 silly audit   csstype: [ '3.1.3' ],
+223 silly audit   debug: [ '4.4.0' ],
+223 silly audit   'deep-is': [ '0.1.4' ],
+223 silly audit   'electron-to-chromium': [ '1.5.136' ],
+223 silly audit   esbuild: [ '0.25.2' ],
+223 silly audit   escalade: [ '3.2.0' ],
+223 silly audit   'escape-string-regexp': [ '4.0.0' ],
+223 silly audit   eslint: [ '9.24.0' ],
+223 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+223 silly audit   'eslint-plugin-react-refresh': [ '0.4.19' ],
+223 silly audit   'eslint-scope': [ '8.3.0' ],
+223 silly audit   espree: [ '10.3.0' ],
+223 silly audit   esquery: [ '1.6.0' ],
+223 silly audit   esrecurse: [ '4.3.0' ],
+223 silly audit   estraverse: [ '5.3.0' ],
+223 silly audit   esutils: [ '2.0.3' ],
+223 silly audit   'fast-deep-equal': [ '3.1.3' ],
+223 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+223 silly audit   'fast-levenshtein': [ '2.0.6' ],
+223 silly audit   'file-entry-cache': [ '8.0.0' ],
+223 silly audit   'find-up': [ '5.0.0' ],
+223 silly audit   'flat-cache': [ '4.0.1' ],
+223 silly audit   flatted: [ '3.3.3' ],
+223 silly audit   fsevents: [ '2.3.3' ],
+223 silly audit   gensync: [ '1.0.0-beta.2' ],
+223 silly audit   'glob-parent': [ '6.0.2' ],
+223 silly audit   'has-flag': [ '4.0.0' ],
+223 silly audit   ignore: [ '5.3.2' ],
+223 silly audit   'import-fresh': [ '3.3.1' ],
+223 silly audit   imurmurhash: [ '0.1.4' ],
+223 silly audit   'is-extglob': [ '2.1.1' ],
+223 silly audit   'is-glob': [ '4.0.3' ],
+223 silly audit   isexe: [ '2.0.0' ],
+223 silly audit   'js-tokens': [ '4.0.0' ],
+223 silly audit   'js-yaml': [ '4.1.0' ],
+223 silly audit   jsesc: [ '3.1.0' ],
+223 silly audit   'json-buffer': [ '3.0.1' ],
+223 silly audit   'json-schema-traverse': [ '0.4.1' ],
+223 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+223 silly audit   json5: [ '2.2.3' ],
+223 silly audit   keyv: [ '4.5.4' ],
+223 silly audit   levn: [ '0.4.1' ],
+223 silly audit   'locate-path': [ '6.0.0' ],
+223 silly audit   'lodash.merge': [ '4.6.2' ],
+223 silly audit   'lru-cache': [ '5.1.1' ],
+223 silly audit   minimatch: [ '3.1.2' ],
+223 silly audit   ms: [ '2.1.3' ],
+223 silly audit   nanoid: [ '3.3.11' ],
+223 silly audit   'natural-compare': [ '1.4.0' ],
+223 silly audit   'node-releases': [ '2.0.19' ],
+223 silly audit   optionator: [ '0.9.4' ],
+223 silly audit   'p-limit': [ '3.1.0' ],
+223 silly audit   'p-locate': [ '5.0.0' ],
+223 silly audit   'parent-module': [ '1.0.1' ],
+223 silly audit   'path-exists': [ '4.0.0' ],
+223 silly audit   'path-key': [ '3.1.1' ],
+223 silly audit   picocolors: [ '1.1.1' ],
+223 silly audit   postcss: [ '8.5.3' ],
+223 silly audit   'prelude-ls': [ '1.2.1' ],
+223 silly audit   punycode: [ '2.3.1' ],
+223 silly audit   react: [ '19.1.0' ],
+223 silly audit   'react-dom': [ '19.1.0' ],
+223 silly audit   'react-refresh': [ '0.14.2' ],
+223 silly audit   'resolve-from': [ '4.0.0' ],
+223 silly audit   rollup: [ '4.40.0' ],
+223 silly audit   scheduler: [ '0.26.0' ],
+223 silly audit   semver: [ '6.3.1' ],
+223 silly audit   'shebang-command': [ '2.0.0' ],
+223 silly audit   'shebang-regex': [ '3.0.0' ],
+223 silly audit   'source-map-js': [ '1.2.1' ],
+223 silly audit   'strip-json-comments': [ '3.1.1' ],
+223 silly audit   'supports-color': [ '7.2.0' ],
+223 silly audit   'type-check': [ '0.4.0' ],
+223 silly audit   'update-browserslist-db': [ '1.1.3' ],
+223 silly audit   'uri-js': [ '4.4.1' ],
+223 silly audit   vite: [ '6.2.6' ],
+223 silly audit   which: [ '2.0.2' ],
+223 silly audit   'word-wrap': [ '1.2.5' ],
+223 silly audit   yallist: [ '3.1.1' ],
+223 silly audit   'yocto-queue': [ '0.1.0' ],
+223 silly audit   '@tailwindcss/vite': [ '4.1.3' ],
+223 silly audit   tailwindcss: [ '4.1.3' ],
+223 silly audit   '@tailwindcss/node': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide': [ '4.1.3' ],
+223 silly audit   'enhanced-resolve': [ '5.18.1' ],
+223 silly audit   jiti: [ '2.4.2' ],
+223 silly audit   lightningcss: [ '1.29.2' ],
+223 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.3' ],
+223 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.3' ],
+223 silly audit   'graceful-fs': [ '4.2.11' ],
+223 silly audit   tapable: [ '2.2.1' ],
+223 silly audit   'detect-libc': [ '2.0.3' ],
+223 silly audit   'lightningcss-darwin-arm64': [ '1.29.2' ],
+223 silly audit   'lightningcss-darwin-x64': [ '1.29.2' ],
+223 silly audit   'lightningcss-freebsd-x64': [ '1.29.2' ],
+223 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.29.2' ],
+223 silly audit   'lightningcss-linux-arm64-gnu': [ '1.29.2' ],
+223 silly audit   'lightningcss-linux-arm64-musl': [ '1.29.2' ],
+223 silly audit   'lightningcss-linux-x64-gnu': [ '1.29.2' ],
+223 silly audit   'lightningcss-linux-x64-musl': [ '1.29.2' ],
+223 silly audit   'lightningcss-win32-arm64-msvc': [ '1.29.2' ],
+223 silly audit   'lightningcss-win32-x64-msvc': [ '1.29.2' ]
+223 silly audit }
+224 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-win32-x64-msvc
+225 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-win32-x64-msvc' ]
+226 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-win32-arm64-msvc
+227 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-win32-arm64-msvc' ]
+228 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-linux-x64-musl
+229 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-linux-x64-musl' ]
+230 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-linux-arm64-musl
+231 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-linux-arm64-musl' ]
+232 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-linux-arm64-gnu
+233 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-linux-arm64-gnu' ]
+234 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-linux-arm-gnueabihf
+235 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-linux-arm-gnueabihf' ]
+236 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-freebsd-x64
+237 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-freebsd-x64' ]
+238 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-darwin-x64
+239 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-darwin-x64' ]
+240 verbose reify failed optional dependency /root/bskmt-web/node_modules/lightningcss-darwin-arm64
+241 silly reify mark deleted [ '/root/bskmt-web/node_modules/lightningcss-darwin-arm64' ]
+242 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-win32-x64-msvc
+243 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-win32-x64-msvc' ]
+244 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+245 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-win32-arm64-msvc' ]
+246 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-linux-x64-musl
+247 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-linux-x64-musl' ]
+248 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-linux-arm64-musl
+249 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-linux-arm64-musl' ]
+250 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+251 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-linux-arm64-gnu' ]
+252 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+253 silly reify mark deleted [
+253 silly reify   '/root/bskmt-web/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+253 silly reify ]
+254 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-freebsd-x64
+255 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-freebsd-x64' ]
+256 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-darwin-x64
+257 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-darwin-x64' ]
+258 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-darwin-arm64
+259 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-darwin-arm64' ]
+260 verbose reify failed optional dependency /root/bskmt-web/node_modules/@tailwindcss/oxide-android-arm64
+261 silly reify mark deleted [ '/root/bskmt-web/node_modules/@tailwindcss/oxide-android-arm64' ]
+262 verbose reify failed optional dependency /root/bskmt-web/node_modules/fsevents
+263 silly reify mark deleted [ '/root/bskmt-web/node_modules/fsevents' ]
+264 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-win32-x64-msvc
+265 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-win32-x64-msvc' ]
+266 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-win32-ia32-msvc
+267 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-win32-ia32-msvc' ]
+268 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-win32-arm64-msvc
+269 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-win32-arm64-msvc' ]
+270 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-s390x-gnu
+271 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-s390x-gnu' ]
+272 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-riscv64-musl
+273 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-riscv64-musl' ]
+274 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-riscv64-gnu
+275 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-riscv64-gnu' ]
+276 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-powerpc64le-gnu
+277 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-powerpc64le-gnu' ]
+278 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-loongarch64-gnu
+279 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-loongarch64-gnu' ]
+280 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-arm64-musl
+281 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-arm64-musl' ]
+282 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-arm64-gnu
+283 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-arm64-gnu' ]
+284 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-arm-musleabihf
+285 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-arm-musleabihf' ]
+286 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-linux-arm-gnueabihf
+287 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-linux-arm-gnueabihf' ]
+288 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-freebsd-x64
+289 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-freebsd-x64' ]
+290 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-freebsd-arm64
+291 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-freebsd-arm64' ]
+292 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-darwin-x64
+293 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-darwin-x64' ]
+294 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-darwin-arm64
+295 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-darwin-arm64' ]
+296 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-android-arm64
+297 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-android-arm64' ]
+298 verbose reify failed optional dependency /root/bskmt-web/node_modules/@rollup/rollup-android-arm-eabi
+299 silly reify mark deleted [ '/root/bskmt-web/node_modules/@rollup/rollup-android-arm-eabi' ]
+300 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/win32-x64
+301 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/win32-x64' ]
+302 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/win32-ia32
+303 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/win32-ia32' ]
+304 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/win32-arm64
+305 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/win32-arm64' ]
+306 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/sunos-x64
+307 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/sunos-x64' ]
+308 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/openbsd-x64
+309 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/openbsd-x64' ]
+310 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/openbsd-arm64
+311 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/openbsd-arm64' ]
+312 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/netbsd-x64
+313 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/netbsd-x64' ]
+314 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/netbsd-arm64
+315 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/netbsd-arm64' ]
+316 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/linux-s390x
+317 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/linux-s390x' ]
+318 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/linux-riscv64
+319 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/linux-riscv64' ]
+320 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/linux-ppc64
+321 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/linux-ppc64' ]
+322 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/linux-mips64el
+323 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/linux-mips64el' ]
+324 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/linux-loong64
+325 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/linux-loong64' ]
+326 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/linux-ia32
+327 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/linux-ia32' ]
+328 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/linux-arm64
+329 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/linux-arm64' ]
+330 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/linux-arm
+331 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/linux-arm' ]
+332 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/freebsd-x64
+333 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/freebsd-x64' ]
+334 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/freebsd-arm64
+335 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/freebsd-arm64' ]
+336 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/darwin-x64
+337 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/darwin-x64' ]
+338 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/darwin-arm64
+339 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/darwin-arm64' ]
+340 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/android-x64
+341 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/android-x64' ]
+342 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/android-arm64
+343 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/android-arm64' ]
+344 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/android-arm
+345 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/android-arm' ]
+346 verbose reify failed optional dependency /root/bskmt-web/node_modules/@esbuild/aix-ppc64
+347 silly reify mark deleted [ '/root/bskmt-web/node_modules/@esbuild/aix-ppc64' ]
+348 http cache lightningcss-linux-x64-gnu@https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz 0ms (cache hit)
+349 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.3.tgz 0ms (cache hit)
+350 http cache tapable@https://registry.npmjs.org/tapable/-/tapable-2.2.1.tgz 0ms (cache hit)
+351 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+352 http cache @tailwindcss/oxide-linux-x64-gnu@https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.1.3.tgz 0ms (cache hit)
+353 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.29.2.tgz 0ms (cache hit)
+354 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz 0ms (cache hit)
+355 http cache enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.18.1.tgz 0ms (cache hit)
+356 http cache @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.3.tgz 0ms (cache hit)
+357 http cache @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.1.3.tgz 0ms (cache hit)
+358 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.3.tgz 0ms (cache hit)
+359 http cache @tailwindcss/vite@https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.3.tgz 0ms (cache hit)
+360 http cache @rollup/rollup-linux-x64-musl@https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.40.0.tgz 0ms (cache hit)
+361 silly tarball no local data for lightningcss-linux-x64-gnu@https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz. Extracting by manifest.
+362 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.3.tgz. Extracting by manifest.
+363 silly tarball no local data for tapable@https://registry.npmjs.org/tapable/-/tapable-2.2.1.tgz. Extracting by manifest.
+364 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+365 silly tarball no local data for @tailwindcss/oxide-linux-x64-gnu@https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.1.3.tgz. Extracting by manifest.
+366 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz. Extracting by manifest.
+367 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.29.2.tgz. Extracting by manifest.
+368 silly tarball no local data for enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.18.1.tgz. Extracting by manifest.
+369 silly tarball no local data for @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.3.tgz. Extracting by manifest.
+370 silly tarball no local data for @tailwindcss/vite@https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.3.tgz. Extracting by manifest.
+371 silly tarball no local data for @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.1.3.tgz. Extracting by manifest.
+372 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.3.tgz. Extracting by manifest.
+373 silly tarball no local data for @rollup/rollup-linux-x64-musl@https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.40.0.tgz. Extracting by manifest.
+374 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 155ms
+375 silly audit report {}
+376 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.3.tgz 388ms (cache miss)
+377 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.3.tgz 395ms (cache miss)
+378 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.3.tgz 394ms (cache miss)
+379 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 399ms (cache miss)
+380 http fetch GET 200 https://registry.npmjs.org/tapable/-/tapable-2.2.1.tgz 452ms (cache miss)
+381 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/node/-/node-4.1.3.tgz 457ms (cache miss)
+382 http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.29.2.tgz 543ms (cache miss)
+383 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.18.1.tgz 589ms (cache miss)
+384 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.3.tgz 597ms (cache miss)
+385 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz 747ms (cache miss)
+386 http fetch GET 200 https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.40.0.tgz 765ms (cache miss)
+387 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.1.3.tgz 781ms (cache miss)
+388 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz 891ms (cache miss)
+389 silly ADD node_modules/lightningcss-win32-x64-msvc
+390 silly ADD node_modules/lightningcss-win32-arm64-msvc
+391 silly ADD node_modules/lightningcss-linux-x64-musl
+392 silly ADD node_modules/lightningcss-linux-x64-gnu
+393 silly ADD node_modules/lightningcss-linux-arm64-musl
+394 silly ADD node_modules/lightningcss-linux-arm64-gnu
+395 silly ADD node_modules/lightningcss-linux-arm-gnueabihf
+396 silly ADD node_modules/lightningcss-freebsd-x64
+397 silly ADD node_modules/lightningcss-darwin-x64
+398 silly ADD node_modules/lightningcss-darwin-arm64
+399 silly ADD node_modules/detect-libc
+400 silly ADD node_modules/tapable
+401 silly ADD node_modules/graceful-fs
+402 silly ADD node_modules/@tailwindcss/oxide-win32-x64-msvc
+403 silly ADD node_modules/@tailwindcss/oxide-win32-arm64-msvc
+404 silly ADD node_modules/@tailwindcss/oxide-linux-x64-musl
+405 silly ADD node_modules/@tailwindcss/oxide-linux-x64-gnu
+406 silly ADD node_modules/@tailwindcss/oxide-linux-arm64-musl
+407 silly ADD node_modules/@tailwindcss/oxide-linux-arm64-gnu
+408 silly ADD node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+409 silly ADD node_modules/@tailwindcss/oxide-freebsd-x64
+410 silly ADD node_modules/@tailwindcss/oxide-darwin-x64
+411 silly ADD node_modules/@tailwindcss/oxide-darwin-arm64
+412 silly ADD node_modules/@tailwindcss/oxide-android-arm64
+413 silly ADD node_modules/lightningcss
+414 silly ADD node_modules/jiti
+415 silly ADD node_modules/enhanced-resolve
+416 silly ADD node_modules/@tailwindcss/oxide
+417 silly ADD node_modules/@tailwindcss/node
+418 silly ADD node_modules/tailwindcss
+419 silly ADD node_modules/@tailwindcss/vite
+420 silly ADD node_modules/fsevents
+421 silly ADD node_modules/@rollup/rollup-win32-x64-msvc
+422 silly ADD node_modules/@rollup/rollup-win32-ia32-msvc
+423 silly ADD node_modules/@rollup/rollup-win32-arm64-msvc
+424 silly ADD node_modules/@rollup/rollup-linux-x64-musl
+425 silly ADD node_modules/@rollup/rollup-linux-s390x-gnu
+426 silly ADD node_modules/@rollup/rollup-linux-riscv64-musl
+427 silly ADD node_modules/@rollup/rollup-linux-riscv64-gnu
+428 silly ADD node_modules/@rollup/rollup-linux-powerpc64le-gnu
+429 silly ADD node_modules/@rollup/rollup-linux-loongarch64-gnu
+430 silly ADD node_modules/@rollup/rollup-linux-arm64-musl
+431 silly ADD node_modules/@rollup/rollup-linux-arm64-gnu
+432 silly ADD node_modules/@rollup/rollup-linux-arm-musleabihf
+433 silly ADD node_modules/@rollup/rollup-linux-arm-gnueabihf
+434 silly ADD node_modules/@rollup/rollup-freebsd-x64
+435 silly ADD node_modules/@rollup/rollup-freebsd-arm64
+436 silly ADD node_modules/@rollup/rollup-darwin-x64
+437 silly ADD node_modules/@rollup/rollup-darwin-arm64
+438 silly ADD node_modules/@rollup/rollup-android-arm64
+439 silly ADD node_modules/@rollup/rollup-android-arm-eabi
+440 silly ADD node_modules/@esbuild/win32-x64
+441 silly ADD node_modules/@esbuild/win32-ia32
+442 silly ADD node_modules/@esbuild/win32-arm64
+443 silly ADD node_modules/@esbuild/sunos-x64
+444 silly ADD node_modules/@esbuild/openbsd-x64
+445 silly ADD node_modules/@esbuild/openbsd-arm64
+446 silly ADD node_modules/@esbuild/netbsd-x64
+447 silly ADD node_modules/@esbuild/netbsd-arm64
+448 silly ADD node_modules/@esbuild/linux-s390x
+449 silly ADD node_modules/@esbuild/linux-riscv64
+450 silly ADD node_modules/@esbuild/linux-ppc64
+451 silly ADD node_modules/@esbuild/linux-mips64el
+452 silly ADD node_modules/@esbuild/linux-loong64
+453 silly ADD node_modules/@esbuild/linux-ia32
+454 silly ADD node_modules/@esbuild/linux-arm64
+455 silly ADD node_modules/@esbuild/linux-arm
+456 silly ADD node_modules/@esbuild/freebsd-x64
+457 silly ADD node_modules/@esbuild/freebsd-arm64
+458 silly ADD node_modules/@esbuild/darwin-x64
+459 silly ADD node_modules/@esbuild/darwin-arm64
+460 silly ADD node_modules/@esbuild/android-x64
+461 silly ADD node_modules/@esbuild/android-arm64
+462 silly ADD node_modules/@esbuild/android-arm
+463 silly ADD node_modules/@esbuild/aix-ppc64
+464 verbose cwd /root/bskmt-web
+465 verbose os Linux 6.11.0-9-generic
+466 verbose node v22.14.0
+467 verbose npm  v11.3.0
+468 verbose exit 0
+469 info ok

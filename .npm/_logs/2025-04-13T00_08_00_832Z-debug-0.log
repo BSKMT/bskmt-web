@@ -1,0 +1,39 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm create vite@latest bskmt-web --template react
+7 verbose argv "create" "vite@latest" "bskmt-web" "--" "--template" "react"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-04-13T00_08_00_832Z-
+9 verbose logfile /root/.npm/_logs/2025-04-13T00_08_00_832Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+12 http fetch GET 200 https://registry.npmjs.org/npm 207ms
+13 http fetch GET 200 https://registry.npmjs.org/create-vite 248ms (cache miss)
+14 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+15 silly idealTree buildDeps
+16 silly fetch manifest create-vite@6.3.1
+17 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/create-vite 65ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+20 silly placeDep ROOT create-vite@6.3.1 OK for:  want: 6.3.1
+21 silly reify moves {}
+22 silly audit bulk request { 'create-vite': [ '6.3.1' ] }
+23 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.3.1.tgz 0ms (cache hit)
+24 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.3.1.tgz. Extracting by manifest.
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 151ms
+26 silly audit report {}
+27 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-6.3.1.tgz 181ms (cache miss)
+28 verbose cwd /root
+29 verbose os Linux 6.11.0-9-generic
+30 verbose node v22.14.0
+31 verbose npm  v10.9.2
+32 notice
+32 notice New [31mmajor[39m version of npm available! [31m10.9.2[39m -> [34m11.3.0[39m
+32 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.3.0[39m
+32 notice To update run: [4mnpm install -g npm@11.3.0[24m
+32 notice  { force: true, [Symbol(proc-log.meta)]: true }
+33 verbose exit 0
+34 info ok
